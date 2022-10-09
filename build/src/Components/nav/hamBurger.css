@@ -1,0 +1,43 @@
+.hamburger {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.hamburger span {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 38px;
+    height: 5px;
+    background-color: white;
+    border-radius: 1rem;
+    transition: all .3s linear;
+}
+
+.line:nth-child(1) {
+    top: 2px;
+}
+
+.line:last-child {
+    bottom: 2px;
+}
+
+.span-first {
+    transform: rotate(45deg) translate(11px, 10px);
+}
+
+.span-meddle {
+    transform: translateX(-25px);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.span-second {
+    transform: rotate(-45deg) translate(11px, -10px);
+}

@@ -1,0 +1,23 @@
+.mobile-nav {
+    display: none;
+}
+
+.destop_show {
+    opacity: 1 !important;
+    pointer-events: all !important;
+}
+
+@media screen and (max-width:786px) {
+    .destop-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .logo-title {
+        display: inline-block !important;
+    }
+}

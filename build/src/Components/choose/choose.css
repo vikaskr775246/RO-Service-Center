@@ -1,0 +1,34 @@
+.choose-us {
+    position: relative;
+    color: black;
+}
+
+.choose-us-wapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 15px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+@media screen and (max-width:768px) {
+    .choose-img {
+        order: 2;
+        flex: 0 2 245px;
+        min-width: 130px;
+    }
+
+    .choose-text {
+        order: 1;
+        flex: 0 1 292px;
+    }
+}
+
+@media screen and (max-width:354px) {
+    .choose-us-wapper {
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,46 @@
+.about {
+    position: relative;
+    background-color: var(--green-col);
+}
+
+.about-wapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 15px;
+}
+
+.about-title {
+    background-color: var(--blue-col);
+    display: inline-block;
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+.about-text {
+    flex: 0 1 558px;
+    text-align: justify;
+}
+
+aside .aside-wapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 500px;
+}
+
+@media screen and (max-width:1147px) {
+    .about-text {
+        flex: 0 1 800px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .about-wapper {
+        padding: 50px 10px;
+    }
+}

@@ -1,0 +1,45 @@
+.banner {
+    background: url(https://i.ibb.co/wWsJhY0/ro-water-purifier-banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-wapper {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.banner-text {
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+}
+
+.title {
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.hide-div {
+    flex: 1;
+    min-width: 170px;
+    min-height: 160px;
+}
+
+@media screen and (max-width:768px) {
+    .banner-wapper {
+        justify-content: center;
+        background: linear-gradient(0deg, black, transparent);
+    }
+
+    .banner-text h1 {
+        margin: 0;
+    }
+}

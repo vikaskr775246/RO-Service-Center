@@ -1,0 +1,26 @@
+#form-wapper {
+    width: 100%;
+    max-width: 420px;
+    position: relative;
+    background-color: white;
+    padding: 25px 25px;
+    border-radius: 10px;
+    color: black;
+}
+
+form {
+    width: 100%;
+}
+
+form select {
+    width: 100%;
+    padding: 12px 8px;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 8px;
+}
+
+select option {
+    padding: 12px 8px;
+    font-size: 18px;
+}

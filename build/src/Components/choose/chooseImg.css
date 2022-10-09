@@ -1,0 +1,9 @@
+.choose-img figure {
+    height: 100%;
+    width: 100%;
+    max-height: 222px;
+}
+
+img {
+    width: 100%;
+}
